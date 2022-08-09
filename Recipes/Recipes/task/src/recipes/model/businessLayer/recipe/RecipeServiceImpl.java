@@ -11,6 +11,8 @@ import recipes.model.persistenceLayer.UsersRepository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * Implementation of the RecipeService interface,
@@ -24,6 +26,10 @@ public class RecipeServiceImpl implements RecipeService {
      * Used to retrieve user data from the username.
      */
     private final UsersRepository usersRepository;
+
+    private final ReentrantReadWriteLock reentrantLock = new ReentrantReadWriteLock();
+    private final Lock readLock = reentrantLock.readLock();
+    private final Lock writeLock = reentrantLock.writeLock();
 
     @Autowired
     public RecipeServiceImpl(UsersRepository usersRepository, RecipesRepository recipesRepository) {
@@ -39,10 +45,14 @@ public class RecipeServiceImpl implements RecipeService {
      * @throws UsernameNotFoundException with parameter String msg
      */
     public long saveRecipe(String username, Recipe recipe) {
-        User user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
-
+        User user;
+        synchronized (readLock) {
+            user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
+        }
         recipe.setUser(user);
-        recipesRepository.save(recipe);
+        synchronized (writeLock) {
+            recipesRepository.save(recipe);
+        }
         return recipesRepository.count();
     }
 
@@ -55,8 +65,12 @@ public class RecipeServiceImpl implements RecipeService {
      * or HttpStatus.FORBIDDEN if the user doesn't have appropriate rights
      */
     public void updateRecipe(String username, long id, Recipe recipe) {
-        User user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
-        Recipe recipeToUpdate = recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        User user;
+        Recipe recipeToUpdate;
+        synchronized (readLock) {
+            user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
+            recipeToUpdate = recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        }
 
         if (!recipeToUpdate.getUser().equals(user)) {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN);
@@ -64,7 +78,9 @@ public class RecipeServiceImpl implements RecipeService {
 
         recipe.setId(id);
         recipe.setUser(recipeToUpdate.getUser());
-        recipesRepository.save(recipe);
+        synchronized (writeLock) {
+            recipesRepository.save(recipe);
+        }
     }
 
     /**
@@ -75,14 +91,20 @@ public class RecipeServiceImpl implements RecipeService {
      * or HttpStatus.FORBIDDEN if the user doesn't have appropriate rights
      */
     public void deleteRecipe(String username, long id) {
-        User user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
-        Recipe recipeToUpdate = recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        User user;
+        Recipe recipeToUpdate;
+        synchronized (readLock) {
+            user = usersRepository.findById(username).orElseThrow(() -> new UsernameNotFoundException("Username " + username));
+            recipeToUpdate = recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        }
 
         if (!recipeToUpdate.getUser().equals(user)) {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN);
         }
 
-        recipesRepository.deleteById(id);
+        synchronized (writeLock) {
+            recipesRepository.deleteById(id);
+        }
     }
 
     /**
@@ -91,7 +113,9 @@ public class RecipeServiceImpl implements RecipeService {
      * @throws ResponseStatusException with parameter HttpStatus.NOT_FOUND if there is no recipe in DB with such id
      */
     public Recipe getRecipe(long id) {
-        return recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        synchronized (readLock) {
+            return recipesRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+        }
     }
 
     /**
@@ -99,7 +123,9 @@ public class RecipeServiceImpl implements RecipeService {
      */
     public List<Recipe> getAllRecipes() {
         List<Recipe> recipeAll = new ArrayList<>();
-        recipesRepository.findAll().forEach(recipeAll::add);
+        synchronized (readLock) {
+            recipesRepository.findAll().forEach(recipeAll::add);
+        }
         return recipeAll;
     }
 
@@ -109,7 +135,9 @@ public class RecipeServiceImpl implements RecipeService {
      * sorted in descending order by time last updated
      */
     public List<Recipe> getRecipesByCategory(String category) {
-        return new ArrayList<>(recipesRepository.findByCategoryIgnoreCaseOrderByLastUpdatedDesc(category));
+        synchronized (readLock) {
+            return new ArrayList<>(recipesRepository.findByCategoryIgnoreCaseOrderByLastUpdatedDesc(category));
+        }
     }
 
     /**
@@ -118,6 +146,8 @@ public class RecipeServiceImpl implements RecipeService {
      * sorted in descending order by time last updated
      */
     public List<Recipe> getRecipesByName(String name) {
-        return new ArrayList<>(recipesRepository.findByNameContainingIgnoreCaseOrderByLastUpdatedDesc(name));
+        synchronized (readLock) {
+            return new ArrayList<>(recipesRepository.findByNameContainingIgnoreCaseOrderByLastUpdatedDesc(name));
+        }
     }
 }
