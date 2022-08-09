@@ -1,0 +1,549 @@
+17:10:18.819 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:10:18.828 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 12284 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+17:10:18.828 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+17:10:19.890 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:10:19.969 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+17:10:20.676 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:10:20.687 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:10:20.688 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:10:20.688 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:10:20.788 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:10:20.788 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1902 ms
+17:10:20.909 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:10:21.183 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:10:21.191 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+17:10:21.364 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:10:21.428 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:10:21.581 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:10:21.710 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:10:22.483 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:10:22.494 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:10:22.907 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:10:23.323 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+17:10:23.378 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4529048e, org.springframework.security.web.context.SecurityContextPersistenceFilter@19bbb216, org.springframework.security.web.header.HeaderWriterFilter@7b38db21, org.springframework.security.web.authentication.logout.LogoutFilter@173b24c4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64d1f549, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@549debdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1aea759d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6addfa22, org.springframework.security.web.session.SessionManagementFilter@3976910, org.springframework.security.web.access.ExceptionTranslationFilter@e76134d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e015ac1]
+17:10:23.567 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:10:23.584 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:10:23.597 INFO  recipes.RecipesApplication - Started RecipesApplication in 5.143 seconds (JVM running for 5.87)
+17:15:41.719 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:15:41.719 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:15:41.720 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:15:42.095 INFO  r.controller.RegistrationController - Cook@somewhere.com has been registered
+17:16:54.709 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:16:54.711 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:16:54.713 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:17:49.513 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:17:49.524 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 10220 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+17:17:49.525 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+17:17:50.633 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:17:50.706 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+17:17:51.412 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+17:17:51.423 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:17:51.423 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:17:51.423 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:17:51.517 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:17:51.517 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1927 ms
+17:17:51.648 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:17:51.887 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:17:51.894 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+17:17:52.072 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:17:52.133 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:17:52.284 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:17:52.418 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:17:53.240 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:17:53.251 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:17:53.684 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:17:54.141 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+17:17:54.197 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d7d968c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2eb03908, org.springframework.security.web.header.HeaderWriterFilter@25da1dc9, org.springframework.security.web.authentication.logout.LogoutFilter@255d4d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e5c245d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e49a77e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@357e7113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10df1f34, org.springframework.security.web.session.SessionManagementFilter@2b9615cb, org.springframework.security.web.access.ExceptionTranslationFilter@25890ce3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45b2d17b]
+17:17:54.432 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:17:54.455 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+17:17:54.470 INFO  recipes.RecipesApplication - Started RecipesApplication in 5.382 seconds (JVM running for 6.011)
+17:18:17.749 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:18:17.749 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:18:17.750 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:18:47.033 INFO  r.controller.RegistrationController - Cook_Programmer2@somewhere.com has been registered
+17:24:27.534 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:24:27.536 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:24:27.538 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:26:00.710 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 9772 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+18:26:00.710 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:26:00.712 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+18:26:11.303 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:26:11.696 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 357 ms. Found 2 JPA repository interfaces.
+18:26:17.421 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+18:26:17.480 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+18:26:17.480 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:26:17.480 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+18:26:18.373 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:26:18.373 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 16948 ms
+18:26:18.829 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:26:19.536 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:26:19.543 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+18:26:20.613 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:26:21.517 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:26:22.492 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:26:23.001 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+18:26:26.130 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:26:26.168 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:26:27.399 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:26:29.071 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+18:26:29.180 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d7d968c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2eb03908, org.springframework.security.web.header.HeaderWriterFilter@25da1dc9, org.springframework.security.web.authentication.logout.LogoutFilter@255d4d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e5c245d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e49a77e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@357e7113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10df1f34, org.springframework.security.web.session.SessionManagementFilter@2b9615cb, org.springframework.security.web.access.ExceptionTranslationFilter@25890ce3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45b2d17b]
+18:26:29.481 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+18:26:29.548 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+18:26:29.563 INFO  recipes.RecipesApplication - Started RecipesApplication in 32.314 seconds (JVM running for 40.91)
+18:26:57.111 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:26:57.111 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:26:57.112 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:26:57.631 INFO  r.controller.RegistrationController - Cook_Programmer8@somewhere.com has been registered
+10:06:40.909 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:06:40.930 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 12676 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+10:06:40.931 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+10:06:44.221 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:06:44.336 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+10:06:46.272 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:06:46.295 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:06:46.296 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:06:46.296 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:06:46.591 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:06:46.591 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5386 ms
+10:06:47.012 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:06:47.517 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:06:47.542 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+10:06:48.762 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:06:50.068 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:06:51.095 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:06:51.731 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:06:54.005 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:06:54.027 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:06:55.219 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:06:56.684 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+10:06:56.858 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c1c0892, org.springframework.security.web.context.SecurityContextPersistenceFilter@18d14de3, org.springframework.security.web.header.HeaderWriterFilter@51bc649e, org.springframework.security.web.authentication.logout.LogoutFilter@3f2169e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a30f6b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15405ba1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26c1244c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1771d6a5, org.springframework.security.web.session.SessionManagementFilter@2eafb4e7, org.springframework.security.web.access.ExceptionTranslationFilter@a74c940, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42095996]
+10:06:57.305 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10:06:57.418 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:06:57.465 INFO  recipes.RecipesApplication - Started RecipesApplication in 17.608 seconds (JVM running for 21.885)
+10:11:14.175 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:11:14.206 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 9076 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+10:11:14.207 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+10:11:15.400 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:11:15.472 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+10:11:16.216 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:11:16.359 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2090 ms
+10:11:16.520 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:11:17.694 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:206)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:182)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:67)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2035)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:203)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at recipes.RecipesApplication.main(RecipesApplication.java:9)
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nik/IdeaProjects/recipes_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	... 81 common frames omitted
+10:11:17.912 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:11:18.015 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:11:18.201 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:11:18.364 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:11:19.378 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:206)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:182)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at recipes.RecipesApplication.main(RecipesApplication.java:9)
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nik/IdeaProjects/recipes_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	... 60 common frames omitted
+10:11:19.379 WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:206)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:182)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at recipes.RecipesApplication.main(RecipesApplication.java:9)
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nik/IdeaProjects/recipes_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	... 60 common frames omitted
+10:11:19.392 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:11:20.075 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:11:21.086 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:206)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:182)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:60)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:40)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:65)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:59)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:155)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at recipes.RecipesApplication.main(RecipesApplication.java:9)
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nik/IdeaProjects/recipes_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	... 58 common frames omitted
+10:11:21.087 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90020, SQLState: 90020
+10:11:21.087 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+10:11:21.091 ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+10:11:21.091 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+10:30:10.430 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:30:10.434 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:30:10.439 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:30:11.889 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:30:11.931 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 2368 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+10:30:11.932 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+10:30:13.180 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:30:13.249 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+10:30:13.862 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:30:13.876 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:30:13.876 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:30:13.876 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:30:13.980 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:30:13.980 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1930 ms
+10:30:14.105 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:30:14.335 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:30:14.341 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+10:30:14.506 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:30:14.569 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:30:14.721 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:30:14.849 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:30:15.897 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:30:15.906 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:30:16.318 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:30:16.740 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+10:30:16.793 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c862522, org.springframework.security.web.context.SecurityContextPersistenceFilter@6689bf04, org.springframework.security.web.header.HeaderWriterFilter@f4c3e9, org.springframework.security.web.authentication.logout.LogoutFilter@1bfb60b7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6aaf1ce8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aea759d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cc42abe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64c37088, org.springframework.security.web.session.SessionManagementFilter@5b0d480c, org.springframework.security.web.access.ExceptionTranslationFilter@5c28009f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e25085]
+10:30:17.010 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:30:17.023 INFO  recipes.RecipesApplication - Started RecipesApplication in 5.662 seconds (JVM running for 6.351)
+10:30:17.038 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:30:17.040 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:30:17.515 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:31:35.330 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:31:35.337 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 9080 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+10:31:35.403 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+10:31:36.338 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:31:36.401 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+10:31:37.022 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:31:37.032 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:31:37.033 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:31:37.033 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:31:37.135 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:31:37.135 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1677 ms
+10:31:37.250 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:31:37.477 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:31:37.484 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+10:31:37.687 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:31:37.756 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:31:37.907 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:31:38.039 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:31:38.790 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:31:38.800 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:31:39.191 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:31:39.579 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+10:31:39.636 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@391b03b, org.springframework.security.web.context.SecurityContextPersistenceFilter@138d978e, org.springframework.security.web.header.HeaderWriterFilter@5b0d480c, org.springframework.security.web.authentication.logout.LogoutFilter@d60cbad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@451cef67, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8d23cd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16f15a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a977146, org.springframework.security.web.session.SessionManagementFilter@1cc42abe, org.springframework.security.web.access.ExceptionTranslationFilter@5ab06829, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d4e06bb]
+10:31:39.821 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10:31:39.838 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:31:39.853 INFO  recipes.RecipesApplication - Started RecipesApplication in 4.889 seconds (JVM running for 5.461)
+10:32:38.523 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:32:38.525 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:32:38.526 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:33:02.897 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:33:02.906 INFO  recipes.RecipesApplication - Starting RecipesApplication using Java 18.0.2 on DESKTOP-RQVHC9S with PID 8544 (C:\Users\Nik\IdeaProjects\Recipes3\Recipes\task\out\production\classes started by Nik in C:\Users\Nik\IdeaProjects\Recipes3)
+10:33:02.906 INFO  recipes.RecipesApplication - No active profile set, falling back to default profiles: default
+10:33:03.937 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:33:04.004 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+10:33:04.699 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10:33:04.711 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10:33:04.711 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:33:04.711 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+10:33:04.817 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:33:04.818 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1860 ms
+10:33:04.949 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:33:05.170 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:33:05.177 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+10:33:05.348 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:33:05.416 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:33:05.572 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:33:05.702 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:33:06.471 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:33:06.482 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:33:06.919 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:33:07.432 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+10:33:07.490 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@501b296a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c3884f5, org.springframework.security.web.header.HeaderWriterFilter@76c85485, org.springframework.security.web.authentication.logout.LogoutFilter@57466fb7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2b18b308, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dbf8cfc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76bdfc19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4202276, org.springframework.security.web.session.SessionManagementFilter@579ee82, org.springframework.security.web.access.ExceptionTranslationFilter@c247b02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4281a26f]
+10:33:07.719 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10:33:07.741 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10:33:07.757 INFO  recipes.RecipesApplication - Started RecipesApplication in 5.244 seconds (JVM running for 5.841)
+10:33:28.116 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:33:28.116 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:33:28.117 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
