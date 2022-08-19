@@ -1,7 +1,7 @@
 # Recipes-test-project
 
 ## Description
-It is a restful spring boot project, that depends on such spring-boot starters: jpa, security, validation, actuator.
+It is a restful spring boot project, that depends on such spring-boot starters: web, jpa, security, validation, actuator.
 A service supports registration via Basic Auth, storing, retrieving, updating, and deleting recipes in json format.
 
 ## Instruction
