@@ -7,10 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 import recipes.model.persistenceLayer.UsersRepository;
 
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
-
 /**
  * Implementation of the UserService interface,
  * It is responsible for processing of actions related to User model
