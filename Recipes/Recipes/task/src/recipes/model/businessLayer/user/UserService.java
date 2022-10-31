@@ -18,9 +18,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 @Service
 public class UserService {
     private final UsersRepository usersRepository;
-    private final ReentrantReadWriteLock reentrantLock = new ReentrantReadWriteLock();
-    private final Lock readLock = reentrantLock.readLock();
-    private final Lock writeLock = reentrantLock.writeLock();
+   
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -35,14 +33,10 @@ public class UserService {
      * @throws ResponseStatusException with parameter HttpStatus.BAD_REQUEST if username already exists
      */
     public void register (User user) {
-        synchronized (readLock) {
-            if (usersRepository.existsById(user.getEmail())) {
-                throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
-            }
+        if (usersRepository.existsById(user.getEmail())) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        synchronized (writeLock) {
-            usersRepository.save(user);
-        }
+        usersRepository.save(user);
     }
 }
